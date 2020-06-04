@@ -8,6 +8,7 @@
     
     <link rel="stylesheet" type="text/css" href="/css/main.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/home.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/modal.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/responsive.css" media="screen">
 </head>
 <body>
@@ -16,7 +17,7 @@
             <header>
                 <img src="/assets/logo.svg" alt="Logo ecoleta">
     
-                <a href="http://google.com.br">
+                <a href="/">
                     <span></span>
                     Cadastre um ponto de coleta</a>
             </header>
@@ -30,5 +31,27 @@
     
         </div>  
     </div>
+
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de Coleta</h1>
+                <a href="#">Fechar</a>
+            </div>
+
+            <form action="">
+                <label for="search">Cidade</label>
+                <div class="search field">
+                    <input type="text" name="search" placeholder="Pesquise por Cidade">
+                    <button>
+                        <img src="/assets/search.svg"   alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="/scripts/index.js"></script>
 </body>
 </html>

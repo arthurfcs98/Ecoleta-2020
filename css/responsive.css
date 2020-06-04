@@ -14,6 +14,19 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+    main .card img{
+        height: 300px;
+    }
+    main .card h1{
+        margin: 8px 0;
+    }
+    main .card p {
+        margin-bottom: 16px;
+    }
 }
 
 @media(min-width: 1700px){

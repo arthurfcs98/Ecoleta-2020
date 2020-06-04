@@ -5,8 +5,11 @@ function fillSelectors(url, selector) {
     .then(res => res.json())
         .then(elements => {
             elements.forEach(element => {
-
-                selector.innerHTML += `<option value="${element.id}">${element.nome}</option>`
+                if(selector == document.querySelector("select[name=city]")){
+                    selector.innerHTML += `<option value="${element.nome}">${element.nome}</option>`
+                } else {
+                    selector.innerHTML += `<option value="${element.id}">${element.nome}</option>`
+                }
             })
         })
     }
@@ -23,7 +26,8 @@ function getCities(event){
 
     stateInput.value = event.target.options[indexOfSelectedState].text
     citySelector.innerHTML = '<option value="">Selecione a Cidade</option>'
-    
+    citySelector.disabled = true
+
     fillSelectors(citiesUrl, citySelector)
     citySelector.disabled = false
 }
@@ -42,3 +46,28 @@ document
 
 //start the code calling function populateUFs
 populateUFs()
+
+const itemsToCollect = document.querySelectorAll(".items-grid li")
+const collectedItems = document.querySelector('input[name = items]')
+const selectedItems = []
+itemsToCollect.forEach(item => item.addEventListener("click", handleSelectedItem))
+
+function handleSelectedItem(event) {
+    const itemLi =event.target
+    
+
+    itemLi.classList.toggle("selected")
+
+    const itemId = itemLi.dataset.id
+
+    const alreadySelected = selectedItems.findIndex(item => item == itemId)
+
+    if(alreadySelected >= 0){
+        selectedItems.splice(alreadySelected,1)
+        console.log(selectedItems)
+    } else{
+        selectedItems.push(itemId)
+    }
+    console.log(selectedItems)
+    collectedItems.value = selectedItems
+}
