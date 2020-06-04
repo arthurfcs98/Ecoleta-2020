@@ -1,0 +1,27 @@
+{
+  "name": "NLW",
+  "version": "1.0.0",
+  "description": "Ecoleta, projeto com intuito de ligar um estabelecimento de coleta de recicláveis com pessoas que possuiem materiais recicláveis a se desfazer.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurfcs98/Ecoleta-2020.git"
+  },
+  "keywords": [],
+  "author": "Arthur Freitas Cesarino dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurfcs98/Ecoleta-2020/issues"
+  },
+  "homepage": "https://github.com/arthurfcs98/Ecoleta-2020#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
