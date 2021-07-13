@@ -4,7 +4,7 @@
   "description": "Ecoleta, projeto com intuito de ligar um estabelecimento de coleta de recicláveis com pessoas que possuiem materiais recicláveis a se desfazer.",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
