@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 29700 21000" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Ubuntu">@font-face { font-family: Ubuntu; font-variant: normal; font-style: normal; font-weight: bold; }</style>
+    <style type="text/css">.fil1 { fill: rgb(36, 143, 85); }
+.fil0 { fill: rgb(41, 163, 97); }
+.fil3 { fill: rgb(47, 184, 110); }
+.fil4 { fill: rgb(50, 33, 83); }
+.fil2 { fill: rgb(52, 203, 121); }
+.fnt0 { font-weight: bold; font-size: 2645.83px; font-family: Ubuntu; }</style>
+  </defs>
+  <g id="Camada_x0020_1" transform="matrix(0.246542, 0, 0, 0.246542, 167.423233, -354.279053)" style="">
+    <g id="logo.svg">
+      <path class="fil0" d="M2104 2837l-374 713c-24,46 -8,104 36,130l585 344c44,27 101,10 126,-36l715 -1302 -844 0c-102,0 -196,58 -244,151z"/>
+      <path class="fil1" d="M3192 2686l-715 1302c-25,46 -82,63 -126,36l-153 -90c37,7 76,-11 96,-47l659 -1201 239 0z"/>
+      <path class="fil2" d="M3974 3377l-257 -532c-48,-97 -144,-159 -249,-159l-745 0 572 1006c-2,0 -4,1 -6,2 -36,17 -34,70 2,85l494 197c23,9 49,-3 58,-27l190 -514c14,-37 -23,-74 -59,-58z"/>
+      <path class="fil3" d="M4033 3435l-190 514c-9,24 -35,36 -58,27l-149 -60 178 -481c10,-27 -6,-53 -29,-60 -22,-7 -41,-22 -52,-43l-235 -487c-48,-97 -144,-159 -249,-159l219 0c105,0 201,62 249,159l257 532c36,-16 73,20 59,58z"/>
+      <path class="fil0" d="M3477 5426c-7,-30 -44,-42 -67,-19l-386 400c-15,16 -15,42 0,58l388 401c22,23 59,11 66,-18l570 0c105,0 201,-61 248,-158l325 -664 -1144 0 0 0z"/>
+      <path class="fil1" d="M3957 5426l185 290c42,65 47,149 12,219l-76 155c-47,97 -143,158 -248,158l218 0c104,0 201,-61 248,-158l325 -664 -664 0 0 0z"/>
+      <path class="fil0" d="M2699 6172l0 -707c0,-53 -42,-97 -93,-97l-1529 0 394 749c48,93 142,151 244,151l891 0c51,0 93,-43 93,-96z"/>
+      <polygon class="fil1" points="1726,5369 1386,5956 1077,5369 "/>
+      <path class="fil1" d="M2699 5465l0 707c0,53 -42,96 -93,96l-243 0c51,0 92,-43 92,-96l0 -707c0,-53 -41,-96 -92,-96l243 0c51,0 93,43 93,96z"/>
+      <path class="fil2" d="M1952 4744l-69 -536c-3,-26 -27,-45 -52,-41l-519 71c-39,6 -53,55 -27,82l-327 489c-60,90 -66,207 -16,303l356 678 579 -1002c0,0 0,1 1,1 33,26 79,-3 74,-45z"/>
+      <path class="fil3" d="M1877 4789c0,0 0,-1 0,-1l-579 1002 -119 -227 471 -815 13 -22c8,-13 21,-18 35,-15 0,0 0,0 0,0 29,5 59,-20 55,-54l-61 -471 139 -19c25,-4 49,15 52,41l69 536c5,43 -41,71 -75,45z"/>
+      <path class="fil2" d="M4778 4773l-448 -673c-28,-41 -81,-54 -123,-29l-584 349c-46,28 -60,90 -31,137l823 1290 382 -780c46,-94 39,-207 -19,-294z"/>
+      <path class="fil3" d="M4797 5067l-382 780 -128 -201 283 -579c46,-94 39,-207 -19,-294l-432 -649 88 -53c42,-25 95,-12 123,29l448 673c58,87 65,200 19,294z"/>
+    </g>
+    <text x="6078" y="5465" class="fil4 fnt0" style="white-space: pre;">InfoColeta</text>
+  </g>
+</svg>

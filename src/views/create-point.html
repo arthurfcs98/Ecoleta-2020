@@ -49,6 +49,11 @@
                 </div>
 
                 <div class="field">
+                    <label for="address">Bairro</label>
+                    <input type="text" name='address3' required>
+                </div>
+
+                <div class="field">
                     <label for="address2">Número/Compemento</label>
                     <input type="text" name="address2" required>
                 </div>
@@ -119,7 +124,7 @@
 
 {% block modal%}
     {% if saved %}
-        {%include 'partials/point-created.html'%}}
+        {%include 'partials/point-created.html'%}
     {% endif %}
 {% endblock modal%}
 

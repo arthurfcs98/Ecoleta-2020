@@ -44,16 +44,18 @@ server.post('/savepoint', (req,res) => {
             name,
             address,
             address2,
+            address3,
             state,
             city,
             items
-        ) VALUES (?,?,?,?,?,?,?);
+        ) VALUES (?,?,?,?,?,?,?,?);
     `
     const values = [
         req.body.image,
         req.body.name,
         req.body.address,
         req.body.address2,
+        req.body.address3,
         req.body.state,
         req.body.city,
         req.body.items,
@@ -81,7 +83,7 @@ server.get('/search', (req, res) => {
         return res.render('search-results.html', {total: 0})
     }
 
-    db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function(err, rows){
+    db.all(`SELECT * FROM places WHERE city LIKE '%${search}%' OR address3 LIKE '%${search}%'`, function(err, rows){
         if(err){
             return console.log(err)
         }
