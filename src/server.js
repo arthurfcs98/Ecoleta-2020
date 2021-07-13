@@ -101,4 +101,4 @@ server.get('/search', (req, res) => {
 })
 
 // turn on server
-server.listen(3000)
+server.listen(process.env.PORT || 3000)
