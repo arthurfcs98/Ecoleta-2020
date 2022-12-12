@@ -19,7 +19,7 @@
   "homepage": "https://github.com/arthurfcs98/Ecoleta-2020#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nunjucks": "^3.2.1",
     "sqlite3": "^5.0.2"
   },
